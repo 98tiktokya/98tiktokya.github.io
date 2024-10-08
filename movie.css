@@ -1,6 +1,6 @@
 .mainColumnMovie{
 padding: 0 20%;
-background-image: url(movie.png);
+background-image: url("movie.png");
 background-repeat: repeat;
 }
    

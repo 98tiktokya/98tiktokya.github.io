@@ -13,7 +13,22 @@ width: 20%;
 border-right: 0.5px solid #000000;
 }
    
-.mainColumn{
-margin-left: 20%;
-width: 80%;
+.mainColumn {
+    margin-left: 20%;
+    width: calc(100% - 20%); /* サイドバーの幅を引いた残りの幅を設定 */
+    flex-grow: 1; /* 残りのスペースを占める */
+    background-color: #ffffff; /* 背景色を設定（任意） */
+    padding: 20px; /* パディングを設定（任意） */
+}
+
+.mainColumnLeft {
+    flex-basis: 50%; /* スライダーの値に応じて変更 */
+    background-color: #ffffff; /* 背景色を設定（任意） */
+    padding: 0px; /* パディングを設定（任意） */
+}
+
+.mainColumnRight {
+    flex-grow: 1; /* 残りのスペースを占める */
+    background-color: #ffffff; /* 背景色を設定（任意） */
+    padding: 20px; /* パディングを設定（任意） */
 }
