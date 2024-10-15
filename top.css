@@ -12,11 +12,11 @@ align-items: center; /* 子要素を中央に配置 */
 }
    
 .topBodyLeft{
-width: 40%;
+width: 50%;
 }
    
 .topBodyRight{
-width: 60%;
+width: 50%;
 }
    
 .topProfileItem{
